@@ -1,0 +1,27 @@
+# Local environments, runtime measurements, personal calibration and camera images
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+cache/
+logs/
+results/
+recovery/
+vendor/
+design_review*/
+graphify-out/
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-22",
+  "scope": "Completed pre-publication checks on the separate release copy; historical live results are recorded separately",
+  "platform": "Windows x64",
+  "python": "CPython 3.12.14",
+  "clean_environment": {
+    "new_isolated_venv": true,
+    "pinned_packages_installed": 19,
+    "pip_check": "PASS",
+    "installed_versions_match_pins": true
+  },
+  "scripted_game_groups": {"passed": 5, "failed": 0},
+  "scripted_interface_groups": {"passed": 4, "failed": 0},
+  "release_unittests": {"passed": 8, "failed": 0},
+  "model_smoke": "Actual MediaPipe Tasks load and inference on a synthetic blank image; zero hands expected and observed",
+  "model_matches_official_version_1": true,
+  "launcher_help": "PASS",
+  "native_mouse_startup": "PASS: real run.py --mouse window with a three-second configured limit exited with code 0; no webcam or screenshot capture",
+  "application_preservation": "16 source, asset, launcher, manifest and original-license files match the original validated bytes",
+  "test_portability_change": "Only test_pinchloom.py output-directory setup changed; no app code changed",
+  "new_webcam_session": false,
+  "private_camera_images_published": false,
+  "personal_runtime_profiles_published": false,
+  "public_scalar_measurements": {"OPEN": 31, "PINCH": 31},
+  "public_genuine_screenshots": 2,
+  "notes": [
+    "The fresh environment installation and automated tests were actually performed.",
+    "Headless fixture wins and blank-image inference are not live hand gameplay or recognition accuracy.",
+    "Camera-state screenshots remain excluded because the existing captures identify a person and private room."
+  ]
+}

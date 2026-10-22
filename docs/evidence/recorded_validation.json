@@ -1,0 +1,118 @@
+{
+  "validation_date": "2026-10-14",
+  "scope": "Historical local validation records; no new webcam test claimed",
+  "vision_normal": {
+    "frames": 652,
+    "elapsed_s": 65.3577546000015,
+    "full_loop_fps": 9.975862910075938,
+    "update_render_p50_ms": 7.209299976238981,
+    "update_render_p95_ms": 13.063560027512722,
+    "ui_p50_ms": 6.674500007648021,
+    "ui_p95_ms": 12.477040023077278,
+    "note": "Update/render includes game logic and window submission, excludes inference/capture and waitKey. UI is compose only. FPS is complete session; not motion-to-display latency."
+  },
+  "vision_long": {
+    "frames": 6742,
+    "elapsed_s": 672.6626206999645,
+    "full_loop_fps": 10.022855132019016,
+    "update_render_p50_ms": 9.433100000023842,
+    "update_render_p95_ms": 21.355589979793876,
+    "ui_p50_ms": 8.64949999959208,
+    "ui_p95_ms": 16.966175017296337,
+    "note": "Update/render includes game logic and window submission, excludes inference/capture and waitKey. UI is compose only. FPS is complete session; not motion-to-display latency."
+  },
+  "mouse": {
+    "frames": 2193,
+    "elapsed_s": 37.925500600016676,
+    "full_loop_fps": 57.82389066207964,
+    "update_render_p50_ms": 5.578599986620247,
+    "update_render_p95_ms": 13.909249971038662,
+    "ui_p50_ms": 4.7082999954000115,
+    "ui_p95_ms": 11.877669981913641,
+    "note": "Update/render includes game logic and window submission, excludes inference/capture and waitKey. UI is compose only. FPS is complete session; not motion-to-display latency."
+  },
+  "live_hand_wins": [
+    {
+      "event": "solved",
+      "seconds": 2.8998935222625732,
+      "moves": 1,
+      "input_mode": "live_camera",
+      "round_kind": "one-swap demo"
+    },
+    {
+      "event": "solved",
+      "seconds": 9.60880160331726,
+      "moves": 1,
+      "input_mode": "live_camera",
+      "round_kind": "one-swap demo"
+    }
+  ],
+  "scripted_groups": [
+    {
+      "name": "Personal threshold fit and invalid-data rejection",
+      "passed": true
+    },
+    {
+      "name": "Original Puzzle mechanics, two grid sizes",
+      "passed": true
+    },
+    {
+      "name": "Two complete actual-app callback rounds and restart",
+      "passed": true
+    },
+    {
+      "name": "Out-of-board drag cannot select an edge tile",
+      "passed": true
+    },
+    {
+      "name": "Lost control point cancels a pending drag",
+      "passed": true
+    },
+    {
+      "name": "Grid selection, active-round rejection, two real-loop mouse wins",
+      "passed": true
+    },
+    {
+      "name": "Difficulty ignored during calibration",
+      "passed": true
+    },
+    {
+      "name": "Both grids preserve clean camera-puzzle capture",
+      "passed": true
+    },
+    {
+      "name": "Honest UI states, scaling and arbitrary-crop non-occlusion",
+      "passed": true
+    }
+  ],
+  "offline_saved_image": {
+    "passed": true,
+    "input": "Saved local camera image; real fresh model inference, NOT live camera or replayed gameplay",
+    "hands_per_run": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "p50_ms": 40.202800009865314,
+    "p95_ms": 58.29571004724135,
+    "mediapipe_api": "Tasks HandLandmarker",
+    "network": "Process-local external Python socket connections denied"
+  }
+}

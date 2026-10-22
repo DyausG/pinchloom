@@ -1,0 +1,22 @@
+{
+  "algorithm": "SHA-256",
+  "description": "Validated application files copied byte for byte; no functional source changes",
+  "files": {
+    "run.py": "879810f1dbe79345197d754fe89ba694c5630e8ee29e17cdd026d7a1617acbd2",
+    "start.ps1": "ff476ccaf0a59afe0d7ab834f1aa95c71b88235956749815afc5c43d1f3a31b3",
+    "requirements-resolved.txt": "9bbf9e89b26f6e4fdb7bfba902d883a6255451eea47f7a59c10540f3cf1824f3",
+    "aeropuzzle_game/LICENSE": "728616ed93a706481e4f36d211fb465b5e945c83323e02ce9e472e87e4435685",
+    "aeropuzzle_game/aeropuzzle/app.py": "bc98019918074411b5bdabfb58d21ae17ae1723cfc244311491ae91079b73305",
+    "aeropuzzle_game/aeropuzzle/calibration.py": "78a46d3575aad92a444e432e311c05fe224d01cdcd20fb3e06f9914a5445e07c",
+    "aeropuzzle_game/aeropuzzle/hand_tracking.py": "48a4bb95984fd4afd1b7c9ffc0a7e23f8fcda4302e9077c276fb4dbeaa8daff6",
+    "aeropuzzle_game/aeropuzzle/main.py": "126dd66dbc40ede119dbade9d6ae32dc393d646ce7a1b2d0dbed66caceda7600",
+    "aeropuzzle_game/aeropuzzle/maze.py": "392f573e32b4348d86272db5dd0484d3817701cbb178ae5229d62aedf68498e7",
+    "aeropuzzle_game/aeropuzzle/performance.py": "3a49d44547f25201cd7baaaf043a1c1d73b7d78b79ddd6e7307bd4159fd518fd",
+    "aeropuzzle_game/aeropuzzle/support.py": "951693e31bb4c9bda2ab557518ba9fed90c84ddd7462e4d413b1c1c3aeb8d621",
+    "aeropuzzle_game/aeropuzzle/ui_skin.py": "384b0f2d03aaabd14edd176aea214a05240b1d6074bf0c3bec0f2019491545de",
+    "aeropuzzle_game/aeropuzzle/__init__.py": "b5528583a7fffc1c05ba0242f646c1ff43bb49fb5ff9e9cfc534bdfa1a99b75a",
+    "aeropuzzle_game/aeropuzzle/__main__.py": "3e064ef373de0afee3bbcb73150275386c368075e013ee69e28d53b0f85ec1c9",
+    "aeropuzzle_game/aeropuzzle/assets/hand_landmarker.task": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+    "aeropuzzle_game/aeropuzzle/assets/__init__.py": "e0ba58ab466c24ce287928b4619bddc62148ea892e3eceb19b4823b8aaddcb7f"
+  }
+}

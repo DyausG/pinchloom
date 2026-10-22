@@ -1,0 +1,23 @@
+{
+  "name": "Pinchloom OPEN/PINCH Calibration Measurements",
+  "rows": 62,
+  "counts": {
+    "OPEN": 31,
+    "PINCH": 31
+  },
+  "columns": {
+    "pose": "Prompted OPEN or PINCH",
+    "ratio": "Dimensionless pixel-correct thumb-index/palm ratio"
+  },
+  "source_record": "validated_calibration_samples.json",
+  "source_sha256": "4365c28adaf8d0a640a864e7f100952d8ceeaec8f45ee2f4bc54fc5854069f28",
+  "export": "Unmodified real values; pose relabeling closed to PINCH; no identifiers, profiles, timestamps, landmarks or images",
+  "license": "MIT",
+  "reproduced_fit": {
+    "open_p10": 1.0124891042232758,
+    "closed_p90": 0.16120967624829138,
+    "separation": 0.8512794279749843,
+    "close_ratio": 0.45915747603953594,
+    "open_ratio": 0.7145413044320312
+  }
+}

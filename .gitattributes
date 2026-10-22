@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+# Preserve the validated application and environment manifests byte for byte.
+*.py -text
+*.ps1 -text
+requirements*.txt -text
+aeropuzzle_game/LICENSE -text
+*.task -text
+*.png -text

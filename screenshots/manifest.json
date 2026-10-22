@@ -1,0 +1,16 @@
+[
+  {
+    "file": "06_mouse_fallback.png",
+    "sha256": "d05af8586beb9eee29e6aa1bb895d29f49b5e35251ab53c6f7ad5eff9093e336",
+    "provenance": "Unmodified recorded final-application output; human mouse session, CV OFF",
+    "validation_date": "2026-10-14",
+    "camera_pixels": false
+  },
+  {
+    "file": "07_mouse_victory.png",
+    "sha256": "1616479464b83cd9605a3cb0dc7381f0364f99f27c69ecbc27067b0bf7d4b34b",
+    "provenance": "Unmodified recorded final-application output; human mouse session, CV OFF",
+    "validation_date": "2026-10-14",
+    "camera_pixels": false
+  }
+]
